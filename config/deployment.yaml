@@ -13,10 +13,10 @@ spec:
     metadata:
       labels:
         app: playground
-    spec:
+    spec: 
       containers:
       - name: playground-app
-        image: wil42/playground:v1
+        image: wil42/playground:v2
         ports:
         - containerPort: 8888
         resources:
